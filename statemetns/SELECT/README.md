@@ -1,4 +1,4 @@
-# SELECT
+# SELECT is used to fetch data from a table
 
 ## Syntax
 

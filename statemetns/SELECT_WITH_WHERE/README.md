@@ -1,4 +1,4 @@
-# SELECT with where clause is used to filter the rows with specific column data
+# SELECT with WHERE clause is used to filter the rows with specific column data
 
 ## Syntax
 
@@ -18,6 +18,12 @@
 
 ### SELECT \* FROM products WHERE category='Bars' OR size='LARGE';
 
+### SELECT \* FROM products WHERE category !='Bars' AND size='LARGE';
+
 ## We can also filter table data using numaric conditions as well like >,<,
 
 ### SELECT \* FROM products WHERE cost_per_box>4;
+
+## We can use COUNT with SELECT AND WHERE to get the number of rows satisfis condition
+
+### SELECT COUNT(\*) FROM products WHERE category='Bars' AND size='LARGE';
