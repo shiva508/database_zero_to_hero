@@ -1,4 +1,4 @@
-# RIGHT OUTER JOIN is used fetch all records unique to table_two(right) and not available in table_one(left).
+# UNION operator is used to combine resilu set of two or more SELECT statement results.
 
 ## Syntax
 
